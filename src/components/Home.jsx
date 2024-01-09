@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowRight } from "react-icons/md"
 import heroImage from "../assets/images/heroImage.jpeg"
+import evoGym from "../assets/images/portfolio/evogym.png"
 import { Link } from 'react-scroll'
 
 function Home() {
@@ -24,7 +25,7 @@ function Home() {
                 </div>
 
                 <div>
-                    <img src={heroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+                    <img src={evoGym} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' />
                 </div>
             </div>
         </div>
