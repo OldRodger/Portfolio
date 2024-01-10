@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div name="contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white'>
+        <div name="contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white pt-12 md:pt-0 border-t-4 border-red-600'>
             <div className='flex flex-col justify-center h-full p-4 max-w-screen-lg mx-auto'>
                 <div className='pb-8'>
                     <p className='font-bold text-4xl border-b-4 border-gray-500 inline-block'>Contact me!</p>

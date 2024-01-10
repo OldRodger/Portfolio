@@ -61,7 +61,7 @@ function Experience() {
     ]
 
     return (
-        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full min-h-dvh'>
+        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full min-h-dvh border-t-4 border-red-600'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 <div className='pt-20 pb-8 md:pt-0'>
                     <p className='text-4xl font-bold inline-block border-b-4 border-gray-400'>Experience</p>

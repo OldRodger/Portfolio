@@ -49,7 +49,7 @@ function Portfolio() {
 
 
     return (
-        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-dvh'>
+        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-dvh py-12 md:py-0 border-t-4 border-red-600'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold border-b-4 border-gray-500 inline-block'>Portfolio</p>
