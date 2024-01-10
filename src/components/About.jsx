@@ -2,14 +2,20 @@ import React from 'react'
 
 function About() {
     return (
-        <div name="about" className='w-full min-h-dvh bg-gradient-to-b from-gray-800 to-black text-white py-12 md:py-0 border-t-4 border-red-600'>
-            <div className='max-w-screen-lg mx-auto px-4 flex flex-col justify-center w-full h-full'>
-                <div className='mb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
+
+        <div name="about" className='w-full bg-gradient-to-b from-gray-800 to-black text-white md:h-screen'>
+            <div className="max-w-screen-lg mx-auto px-4 py-20 md:py-0 h-full flex flex-col md:justify-center gap-12">
+                <div>
+                    <p className='text-4xl font-bold border-b-4 border-gray-500 inline-block'>About</p>
                 </div>
-                <p className='text-xl mt-12 md:mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint at eos omnis reprehenderit ipsum aperiam. A alias dolores facere vel accusantium ipsa aut voluptatum adipisci quisquam ducimus iste quis maiores ea similique molestias odit officiis, tenetur velit distinctio impedit! Obcaecati consequatur quis quae rerum aliquid omnis reiciendis aperiam accusamus!</p>
-                <br />
-                <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quibusdam nobis consectetur distinctio illum inventore! Eos quo rem consequatur libero at similique eum dicta, saepe ab! Tempora commodi sint voluptatem voluptatum omnis libero sit veniam recusandae quaerat dolorem? Eum ut, sequi expedita labore optio nihil consequatur iusto ipsam in voluptates?</p>
+                <div className='grid gap-6 text-lg md:text-xl'>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium perspiciatis non quisquam qui, unde soluta voluptas quibusdam accusamus a animi aut modi culpa labore dicta reprehenderit deserunt cupiditate nemo explicabo blanditiis. Ut rem quia quod deserunt eius tenetur, nobis odio, laudantium quidem cumque blanditiis cum porro accusantium officia ad.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium perspiciatis non quisquam qui, unde soluta voluptas quibusdam accusamus a animi aut modi culpa labore dicta reprehenderit deserunt cupiditate nemo explicabo blanditiis. Ut rem quia quod deserunt eius tenetur, nobis odio, laudantium quidem cumque blanditiis cum porro accusantium officia ad.
+                    </p>
+                </div>
             </div>
         </div>
     )
